@@ -1,4 +1,4 @@
-## ENSF 619.02 Assignment 3
+## ENSF 619.02--Assignment 3-- By Shirin Yamani and Mahsa Malek
 
 The objective of this assignment is to create a function to remove "blank slices" from a 3D dataset then implement the existing data augmentation and generation utility for image segmentation purpose. 
 
