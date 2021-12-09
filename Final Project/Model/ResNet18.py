@@ -23,7 +23,7 @@ parser.add_argument('--learning_rate', type=float, default=0.0001,
                     help='learning rate (default: 0.0001)')
 parser.add_argument('--momentum', type=float, default=0.9, 
                     help='momentum (default: 0.9)')
-parser.add_argument('--dataset_path', type=str, default='./data/',
+parser.add_argument('--dataset_path', type=str, default='/content/drive/MyDrive/Dataset/',
                       help='training and validation dataset')
 
 args = parser.parse_args()
