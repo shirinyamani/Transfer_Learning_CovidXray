@@ -22,9 +22,9 @@ start_time= time.time()
 
 
 parser = argparse.ArgumentParser(description='COVID-19 Detection from X-ray Images')
-parser.add_argument('--test_covid_path', type=str, default='./data/test/covid/',
+parser.add_argument('--test_covid_path', type=str, default='./Dataset/test/covid/',
                       help='COVID-19 test samples directory')
-parser.add_argument('--test_non_covid_path', type=str, default='./data/test/non/',
+parser.add_argument('--test_non_covid_path', type=str, default='./Dataset/test/non/',
                       help='Non-COVID test samples directory')
 parser.add_argument('--trained_model_path', type=str, default='./covid_resnet18_epoch2.pt',
                       help='The path and name of trained model')
